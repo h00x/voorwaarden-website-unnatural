@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archief · Algemene Voorwaarden · Unnatural Concepts</title>
+  <meta name="description" content="Archief van alle versies van de algemene voorwaarden van Unnatural Concepts.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f7f3ea;
+      --bg-tint: #efe9da;
+      --ink: #1c1a17;
+      --ink-soft: #4a4640;
+      --muted: #8a857c;
+      --rule: #d9d2c1;
+      --accent: #a64a2c;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'Fraunces', Georgia, serif;
+      font-variation-settings: "opsz" 14;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    .banner {
+      background: var(--ink);
+      color: var(--bg);
+      padding: 0.65rem clamp(1.25rem, 4vw, 2.5rem);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    .banner a { color: var(--bg); text-decoration: underline; }
+
+    main {
+      max-width: 56rem;
+      margin: 0 auto;
+      padding: clamp(3rem, 8vw, 5rem) clamp(1.25rem, 4vw, 2.5rem);
+    }
+    .eyebrow {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 0 0 1rem;
+    }
+    h1 {
+      font-variation-settings: "opsz" 144, "wght" 400;
+      font-size: clamp(2.25rem, 5vw, 3.5rem);
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+      margin: 0 0 1.25rem;
+      font-style: italic;
+    }
+    .intro {
+      font-size: 1.1rem;
+      color: var(--ink-soft);
+      max-width: 55ch;
+      margin: 0 0 3rem;
+    }
+    .version-list { display: grid; gap: 1.25rem; margin: 2rem 0; }
+    .version-card {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 1.5rem;
+      padding: 1.5rem 1.75rem;
+      background: var(--bg-tint);
+      border-left: 3px solid var(--rule);
+      text-decoration: none;
+      color: inherit;
+      transition: border-color .15s, transform .15s;
+    }
+    .version-card:hover {
+      border-left-color: var(--accent);
+      transform: translateX(2px);
+    }
+    .version-card.current {
+      border-left-color: var(--accent);
+    }
+    .version-date {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.8rem;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+    }
+    .version-title {
+      font-variation-settings: "opsz" 24, "wght" 500;
+      font-size: 1.2rem;
+      margin: 0;
+    }
+    .version-status {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      padding: 0.25rem 0.6rem;
+      border: 1px solid var(--rule);
+      border-radius: 2px;
+    }
+    .version-status.current {
+      background: var(--accent);
+      color: var(--bg);
+      border-color: var(--accent);
+    }
+    .version-actions {
+      grid-column: 2 / -1;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75rem;
+      color: var(--muted);
+      margin-top: 0.4rem;
+    }
+    .version-actions a { color: var(--accent); text-decoration: none; }
+    .version-actions a:hover { text-decoration: underline; }
+
+    .note {
+      margin-top: 3rem;
+      padding: 1.5rem 1.75rem;
+      background: var(--bg-tint);
+      font-size: 0.95rem;
+      color: var(--ink-soft);
+    }
+    .note h2 {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 0 0 0.5rem;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+
+<div class="banner">
+  <a href="/">&larr; Unnatural Concepts · Voorwaarden</a>
+</div>
+
+<main>
+  <p class="eyebrow">Archief</p>
+  <h1>Alle <em>versies</em></h1>
+  <p class="intro">Hieronder staan alle versies van onze algemene voorwaarden. Elke versie blijft permanent op zijn eigen URL beschikbaar, zodat eerder gesloten overeenkomsten altijd verifieerbaar zijn.</p>
+
+  <div class="version-list">
+
+    <a href="/2026-05/" class="version-card current">
+      <div class="version-date">2026 · 05</div>
+      <div>
+        <h2 class="version-title">Versie Mei 2026</h2>
+        <div class="version-actions">HTML &middot; <a href="/2026-05/voorwaarden.pdf">PDF</a></div>
+      </div>
+      <span class="version-status current">Huidig</span>
+    </a>
+
+    <!--
+    Bij een nieuwe versie: voeg hierboven een nieuwe .version-card toe en verplaats
+    de "current"-klasse, status-badge en accent-rand naar de nieuwste versie.
+    De oude versie blijft beschikbaar op zijn eigen URL.
+
+    Voorbeeld voor toekomstige versies:
+
+    <a href="/2027-03/" class="version-card">
+      <div class="version-date">2027 · 03</div>
+      <div>
+        <h2 class="version-title">Versie Maart 2027</h2>
+        <div class="version-actions">HTML &middot; <a href="/2027-03/voorwaarden.pdf">PDF</a></div>
+      </div>
+      <span class="version-status">Vervangen</span>
+    </a>
+    -->
+
+  </div>
+
+  <div class="note">
+    <h2>Hoe verwijst u correct naar onze voorwaarden?</h2>
+    <p>Verwijs in offertes en overeenkomsten naar de specifieke versie die op dat moment van toepassing is, bijvoorbeeld: <em>"de algemene voorwaarden van Unnatural Concepts, versie mei 2026, permanent te raadplegen op voorwaarden.unnatural.nl/2026-05/"</em>. Op deze manier blijft duidelijk welke versie van toepassing was bij het sluiten van de overeenkomst.</p>
+  </div>
+</main>
+
+</body>
+</html>
